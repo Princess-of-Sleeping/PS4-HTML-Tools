@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+
+<title>Title Update Checker</title>
+
+<script type="text/javascript" src="./jssha256.js"></script>
+<script type="text/javascript" src="./main.js"></script>
+
+</head>
+
+<body onload="ScePageLoad()">
+
+NP Environment : <select id="np_environment" onChange="SceInputCheck()"></select>
+
+<br/>
+
+PS4 Title ID (XXXXYYYYY) : <input type="text" id="titleid" oninput="SceInputCheck()">
+
+<div id="output"><br/></div>
+
+Thank <a href="https://twitter.com/Zer0xFF/status/1015724430843088896">@Zer0xFF</a>
+
+</body>
+
+</html>
